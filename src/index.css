@@ -100,33 +100,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #000000;
-  color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
-@media (prefers-color-scheme: light) {
-  button {
-    background-color: #000000;
-    color: #ffffff;
-  }
-  
-  a:hover {
-    color: #333333;
-  }
-}
-
-button:hover {
-  border-color: #333333;
-  background-color: #333333;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 2px solid #000000;
-  outline-offset: 2px;
-}
 
 /* Enhanced black and white theme styles */
 .bg-gradient-monochrome {

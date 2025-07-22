@@ -179,7 +179,8 @@ export default function ChatPage() {
             <button
               onClick={send}
               disabled={!input.trim() || loading}
-              className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 disabled:transform-none font-medium"
+              className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 disabled:transform-none font-medium !bg-black !text-white"
+              style={{ backgroundColor: '#000000', color: '#ffffff' }}
             >
               {loading ? (
                 <div className="flex items-center space-x-2">
